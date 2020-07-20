@@ -10,7 +10,7 @@ namespace prjFirstMVC.Controllers
     {
         public ActionResult Index()
         {
-            //ViewBag.DateTime = DateTime.Now.ToString(); 
+            ViewBag.DateTime = DateTime.Now.ToString(); 
             //將目前日期時間轉成字串並存入ViewBag物件的DateTime動態屬性內，再指定回傳View到用戶端
             return View();
         }
